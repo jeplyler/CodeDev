@@ -1,0 +1,6 @@
+import wx
+
+app=wx.app(False)
+frame=wx.frame(none,wx.id_any,'HEllo Woeld)
+frame.show(true)
+app.mainloop()

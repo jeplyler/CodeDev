@@ -1,0 +1,3 @@
+with open('c:\ch1.mp3','r') as f:
+    read_data=f.read()
+f.closed

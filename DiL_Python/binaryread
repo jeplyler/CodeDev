@@ -1,0 +1,5 @@
+import struct
+name = "c:\ch1.mp3"
+f = open(name,'rb')
+junk=struct.unpack('l',f.read(4))
+print junk
